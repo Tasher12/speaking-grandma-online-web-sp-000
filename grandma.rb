@@ -6,7 +6,6 @@ def speak_to_grandma(phrase)
   elsif phrase.downcase
     count += 1 
     return "HUH?! SPEAK UP, SONNY!" || until count <=2 
-    
   else phrase.upcase
     return "NO, NOT SINCE 1938!"
     
